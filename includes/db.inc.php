@@ -1,6 +1,6 @@
 <?php
 
-$host = 'mysql:host=localhost;dbname=mmp';
+$host = 'mysql:host=localhost;dbname=mmv';
 $user = 'root';
 $password = '';
 
@@ -10,5 +10,7 @@ try{
 }catch(PDOException $e){
     echo 'Error There ' . $e->getMessage();
 }
+
+
 
 ?>
